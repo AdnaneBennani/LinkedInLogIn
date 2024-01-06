@@ -50,9 +50,19 @@ input{
     border-radius: 6px;
 
 }
+div.link.applesignin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.link.applesignin a{
+    text-decoration: none;
+    color: black;
+}
 .showinput{
     display: flex;
-    display: inline-block;
+    flex-direction: column;
+    gap: 15px;
 }
 .inpt{
     position: relative;
@@ -73,7 +83,12 @@ input{
     border: 1px solid black;
 }
 .applebtn{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     text-align: center;
+    position: relative;
+
 }
 .applelogo{
     position: relative;
@@ -113,9 +128,6 @@ h3{
 }
 hr{
     width: 100%;
-}
-.applebtn{
-    position: relative;
 }
 .applelogo{
     position: absolute;
